@@ -12,7 +12,7 @@ export const Todo = () => {
             </header>
             <section className="form">
                 <form>
-                    <input type="text" className="todo-input" autoComplete="off" value={inputValue} />
+                    <input type="text" className="todo-input" autoComplete="off" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
                     <button type="submit" className="todo-btn">
                         Add Task
                     </button>
