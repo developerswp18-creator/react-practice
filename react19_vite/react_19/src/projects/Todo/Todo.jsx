@@ -4,9 +4,15 @@ import { useState } from "react";
 export const Todo = () => {
 
     const [inputValue, setInputValue] = useState("");
+    const [tasks, setTasks] = useState([]);
 
     const handleInputChange = (value) => {
         setInputValue(value);
+
+        if(!inputValue)
+            return;
+        setTasks((prevTask) => [...prevTask, inputValue]);
+
     };
 
     return (
