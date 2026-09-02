@@ -5,6 +5,10 @@ export const Todo = () => {
 
     const [inputValue, setInputValue] = useState("");
 
+    const handleInputChange = (value) => {
+        setInputValue(value);
+    };
+
     return (
         <section className="todo-container">
             <header>
@@ -12,7 +16,11 @@ export const Todo = () => {
             </header>
             <section className="form">
                 <form>
-                    <input type="text" className="todo-input" autoComplete="off" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
+                    <input type="text" 
+                    className="todo-input" 
+                    autoComplete="off" 
+                    value={inputValue} 
+                    onChange={(e) => handleInputChange(e.target.value)} />
                     <button type="submit" className="todo-btn">
                         Add Task
                     </button>
