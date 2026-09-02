@@ -15,12 +15,14 @@ export const Todo = () => {
                 <h1>Todo List</h1>
             </header>
             <section className="form">
-                <form>
-                    <input type="text" 
-                    className="todo-input" 
-                    autoComplete="off" 
-                    value={inputValue} 
-                    onChange={(e) => handleInputChange(e.target.value)} />
+                <form onSubmit={(e) => {
+                    e.preventDefault();
+                }}>
+                    <input type="text"
+                        className="todo-input"
+                        autoComplete="off"
+                        value={inputValue}
+                        onChange={(e) => handleInputChange(e.target.value)} />
                     <button type="submit" className="todo-btn">
                         Add Task
                     </button>
