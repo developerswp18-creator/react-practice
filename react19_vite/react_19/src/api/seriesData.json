@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Stranger Things",
+        "id": 1,
+        "imgsrc": "/cards images/stranger things.jfif",
+        "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+        "link": "https://www.netflix.com/in/title/80057281",
+        "genre": "Sci-Fi",
+        "cast": "Winona Ryder, David Harbour, Finn Wolfhard, Millie Bobby Brown",
+        "rating": "8.7/10",
+        "releaseYear": 2016
+    },
+    {
+        "name": "Money Heist",
+        "id": 2,
+        "imgsrc": "/cards images/money heist.jfif",
+        "description": "A criminal mastermind who goes by 'The Professor' has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain.",
+        "link": "https://www.netflix.com/in/title/80192098",
+        "genre": "Crime, Thriller",
+        "cast": "Úrsula Corberó, Álvaro Morte, Itziar Ituño, Pedro Alonso",
+        "rating": "8.3/10",
+        "releaseYear": 2017
+    },
+    {
+        "name": "The Witcher",
+        "id": 3,
+        "imgsrc": "/cards images/the witcher.jfif",
+        "description": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.",
+        "link": "https://www.netflix.com/in/title/80189685",
+        "genre": "Action, Adventure, Fantasy",
+        "cast": "Henry Cavill, Anya Chalotra, Freya Allan, Joey Batey",
+        "rating": "8.2/10",
+        "releaseYear": 2019
+    },
+    {
+        "name": "Breaking Bad",
+        "id": 4,
+        "imgsrc": "/cards images/breaking bad.jfif",
+        "description": "A high school chemistry teacher turned methamphetamine producer navigates the dangers of the criminal underworld while battling personal demons.",
+        "link": "https://www.netflix.com/in/title/70143836",
+        "genre": "Crime, Drama, Thriller",
+        "cast": "Bryan Cranston, Aaron Paul, Anna Gunn, Dean Norris",
+        "rating": "9.5/10",
+        "releaseYear": 2008
+    },
+    {
+        "name": "The Crown",
+        "id": 5,
+        "imgsrc": "/cards images/the crown.jfif",
+        "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+        "link": "https://www.netflix.com/in/title/80025678",
+        "genre": "Biography, Drama, History",
+        "cast": "Olivia Colman, Tobias Menzies, Helena Bonham Carter, Josh O'Connor",
+        "rating": "8.7/10",
+        "releaseYear": 2016
+    },
+    {
+        "name": "The Crown",
+        "id": 6,
+        "imgsrc": "/cards images/the crown.jfif",
+        "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+        "link": "https://www.netflix.com/in/title/80025678",
+        "genre": "Biography, Drama, History",
+        "cast": "Olivia Colman, Tobias Menzies, Helena Bonham Carter, Josh O'Connor",
+        "rating": "8.7/10",
+        "releaseYear": 2016
+    },
+    {
+        "name": "The Crown",
+        "id": 7,
+        "imgsrc": "/cards images/the crown.jfif",
+        "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+        "link": "https://www.netflix.com/in/title/80025678",
+        "genre": "Biography, Drama, History",
+        "cast": "Olivia Colman, Tobias Menzies, Helena Bonham Carter, Josh O'Connor",
+        "rating": "8.7/10",
+        "releaseYear": 2016
+    },
+    {
+        "name": "The Crown",
+        "id": 8,
+        "imgsrc": "/cards images/the crown.jfif",
+        "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+        "link": "https://www.netflix.com/in/title/80025678",
+        "genre": "Biography, Drama, History",
+        "cast": "Olivia Colman, Tobias Menzies, Helena Bonham Carter, Josh O'Connor",
+        "rating": "8.7/10",
+        "releaseYear": 2016
+    },
+    {
+        "name": "The Crown",
+        "id": 9,
+        "imgsrc": "/cards images/the crown.jfif",
+        "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+        "link": "https://www.netflix.com/in/title/80025678",
+        "genre": "Biography, Drama, History",
+        "cast": "Olivia Colman, Tobias Menzies, Helena Bonham Carter, Josh O'Connor",
+        "rating": "8.7/10",
+        "releaseYear": 2016
+    },
+    {
+        "name": "The Crown",
+        "id": 10,
+        "imgsrc": "/cards images/the crown.jfif",
+        "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+        "link": "https://www.netflix.com/in/title/80025678",
+        "genre": "Biography, Drama, History",
+        "cast": "Olivia Colman, Tobias Menzies, Helena Bonham Carter, Josh O'Connor",
+        "rating": "8.7/10",
+        "releaseYear": 2016
+    }
+]

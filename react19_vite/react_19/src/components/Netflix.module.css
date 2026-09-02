@@ -1,0 +1,24 @@
+.card {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 6px 24px 0px,
+        rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+img {
+    width: 100%;
+}
+.card-content {
+    padding: 3.2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.card-heading {
+    margin: 5rem;
+}
+.super-hit {
+  color: green;
+}
+
+.average {
+  color: rgb(230, 230, 22);
+}
+

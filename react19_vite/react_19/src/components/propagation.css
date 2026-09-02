@@ -1,0 +1,15 @@
+.main-div {
+    display: flex;
+    justify-content: center;
+}
+.g-div {
+    background-color: yellow;
+}
+
+.p-div {
+    background-color: lightgreen;
+}
+
+.c-div {
+    background-color: lightblue;
+}
