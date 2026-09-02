@@ -9,8 +9,10 @@ export const Todo = () => {
     const handleInputChange = (value) => {
         setInputValue(value);
 
-        if(!inputValue)
-            return;
+        if (!inputValue)return;
+
+        if (tasks.includes(inputValue)) return;
+
         setTasks((prevTask) => [...prevTask, inputValue]);
 
     };
