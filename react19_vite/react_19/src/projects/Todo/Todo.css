@@ -1,7 +1,13 @@
-section {
-  width: 100%;
-   background-image: linear-gradient(100deg, #001214, #001f29);
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(100deg, #001214, #001f29);
 }
+/* section {
+  width: 100%;
+  background-image: linear-gradient(100deg, #001214, #001f29);
+} */
 
 .todo-container {
   align-items: center;
