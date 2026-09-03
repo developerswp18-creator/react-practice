@@ -30,10 +30,17 @@ export const Todo = () => {
 
     };
 
+    // date and time
+
+    const now = new Date();
+    const formattedDate = now.toLocaleDateString();
+    const formattedTime = now.toLocaleTimeString();
+
     return (
         <section className="todo-container">
             <header>
                 <h1>Todo List</h1>
+                <h2 className="date-time"> {formattedDate} - {formattedTime} </h2>
             </header>
             <section className="form">
                 <form onSubmit={handleFormSubmit}>
