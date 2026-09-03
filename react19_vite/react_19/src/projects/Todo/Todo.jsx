@@ -9,6 +9,8 @@ export const Todo = () => {
 
     const [tasks, setTasks] = useState([]);
 
+    const [dateTime, setDateTime] = useState("");
+
 
     const handleInputChange = (value) => {
         setInputValue(value);
@@ -32,15 +34,19 @@ export const Todo = () => {
 
     // date and time
 
-    const now = new Date();
-    const formattedDate = now.toLocaleDateString();
-    const formattedTime = now.toLocaleTimeString();
+    setInterval(() => {
+        const now = new Date();
+        const formattedDate = now.toLocaleDateString();
+        const formattedTime = now.toLocaleTimeString();
+
+        setDateTime(`${formattedDate} - ${formattedTime}`);
+    }, 1000);
 
     return (
         <section className="todo-container">
             <header>
                 <h1>Todo List</h1>
-                <h2 className="date-time"> {formattedDate} - {formattedTime} </h2>
+                <h2 className="date-time"> {dateTime} </h2>
             </header>
             <section className="form">
                 <form onSubmit={handleFormSubmit}>
