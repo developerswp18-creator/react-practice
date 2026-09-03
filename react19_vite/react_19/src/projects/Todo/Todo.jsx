@@ -1,6 +1,7 @@
 import "./Todo.css";
 import { useState } from "react";
 import { MdDeleteForever, MdCheck } from "react-icons/md";
+import { useEffect } from "react";
 
 export const Todo = () => {
 
@@ -34,13 +35,18 @@ export const Todo = () => {
 
     // date and time
 
-    setInterval(() => {
-        const now = new Date();
-        const formattedDate = now.toLocaleDateString();
-        const formattedTime = now.toLocaleTimeString();
+    useEffect(() => {
+        setInterval(() => {
+            const now = new Date();
+            const formattedDate = now.toLocaleDateString();
+            const formattedTime = now.toLocaleTimeString();
 
-        setDateTime(`${formattedDate} - ${formattedTime}`);
-    }, 1000);
+            setDateTime(`${formattedDate} - ${formattedTime}`);
+        }, 1000);
+        
+
+
+    }, []);
 
     return (
         <section className="todo-container">
