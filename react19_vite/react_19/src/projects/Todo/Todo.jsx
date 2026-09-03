@@ -4,16 +4,25 @@ import { useState } from "react";
 export const Todo = () => {
 
     const [inputValue, setInputValue] = useState("");
+
+
     const [tasks, setTasks] = useState([]);
+
 
     const handleInputChange = (value) => {
         setInputValue(value);
+    };
 
-        if (!inputValue)return;
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+
+        if (!inputValue) return;
 
         if (tasks.includes(inputValue)) return;
 
         setTasks((prevTask) => [...prevTask, inputValue]);
+
+        setInputValue("");
 
     };
 
@@ -23,9 +32,7 @@ export const Todo = () => {
                 <h1>Todo List</h1>
             </header>
             <section className="form">
-                <form onSubmit={(e) => {
-                    e.preventDefault();
-                }}>
+                <form onSubmit={handleFormSubmit}>
                     <input type="text"
                         className="todo-input"
                         autoComplete="off"
