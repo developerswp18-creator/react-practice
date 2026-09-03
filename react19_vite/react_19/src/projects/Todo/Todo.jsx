@@ -36,7 +36,7 @@ export const Todo = () => {
     // date and time
 
     useEffect(() => {
-        setInterval(() => {
+        const interval = setInterval(() => {
             const now = new Date();
             const formattedDate = now.toLocaleDateString();
             const formattedTime = now.toLocaleTimeString();
@@ -44,7 +44,7 @@ export const Todo = () => {
             setDateTime(`${formattedDate} - ${formattedTime}`);
         }, 1000);
         
-        return () => clearInterval();
+        return () => clearInterval(interval);
 
     }, []);
 
