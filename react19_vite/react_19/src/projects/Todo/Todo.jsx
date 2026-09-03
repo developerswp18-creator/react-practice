@@ -44,7 +44,7 @@ export const Todo = () => {
             setDateTime(`${formattedDate} - ${formattedTime}`);
         }, 1000);
         
-
+        return () => clearInterval();
 
     }, []);
 
