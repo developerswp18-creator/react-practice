@@ -74,7 +74,9 @@ export const Todo = () => {
                             <button className="check-btn">
                                 <MdCheck />
                             </button>
-                            <button className="delete-btn">
+                            <button className="delete-btn" onClick={() => {
+                                setTasks((prevTask) => prevTask.filter((_, i) => i !== index));
+                            }}>
                                 <MdDeleteForever />
                             </button>
                         </li>
